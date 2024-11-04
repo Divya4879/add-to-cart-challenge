@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Add To Cart challenge</title>
+
+  <link href="style.css" rel="stylesheet">
+  
+</head>
+
+<body>
+    
+    <div class="flex-container side">
+        <img class= "preview" src="images/1.jpg" alt="main-view">
+        <img class= "preview" src="/images/2.jpg" alt="side-view">
+        <img class= "preview" src="/images/3.jpg" alt="back-view">
+  </div>
+
+  <div class="main-img">
+    <img class="main">
+  </div>
+
+  <div class="content">
+    <p>Leriya Fashion Tee</p>
+    <h1>Leriya Fashion T-Shirt for Men</h1>
+    <p class="desc">Smooth tee with a classic cut. Made of smooth & soft cotton.</p>
+    <p class="price">$99.00<span>&nbsp;-25%</span></p>
+    <p>CHOOSE SIZE</p>
+    <nav>
+        <button type='button' id='button' onclick="document.getElementById('button').style.backgroundColor='black';document.getElementById('button').style.color='white'">S</button> 
+        <button type='button' class='button' onclick="document.getElementsByClassName('button')[1].style.backgroundColor='black';document.getElementsByClassName('button')[1].style.color='white'">M</button>
+        <button type='button' class='button' onclick="document.getElementsByClassName('button')[2].style.backgroundColor='black';document.getElementsByClassName('button')[2].style.color='white'">L</button>
+        <button type='button' class='button' onclick="document.getElementsByClassName('button')[3].style.backgroundColor='black';document.getElementsByClassName('button')[3].style.color='white'">XL</button>
+        <button type='button' class='button' onclick="document.getElementsByClassName('button')[4].style.backgroundColor='black';document.getElementsByClassName('button')[4].style.color='white'">XXL</button>
+    </nav>
+    <button type="button" class="add"> ADD TO CART</button>
+  </div>
+  
+</body>
+
+</html>
